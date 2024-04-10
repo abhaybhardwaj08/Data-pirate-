@@ -1,0 +1,627 @@
+<html><head>
+    <link rel="stylesheet" type="text/css" href="scroll.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+    <title>C++</title>
+    <style>
+        *{
+            font-family: 'Charmonman', cursive;
+        }
+    </style>
+    <link rel="shortcut icon" href="c.png" /> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="DataPirates.html"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="DataPiartes.html"target="_blank" rel="noopener noreferrer">HOME</a></li>
+                <li><a href="about.html"target="_blank" rel="noopener noreferrer">ABOUT</a></li>
+                <li><a href="programming.html"target="_blank" rel="noopener noreferrer">PROGRAMMINGS</a></li>
+                <li><a href="technical bolg.html"target="_blank" rel="noopener noreferrer">TECHNICAL BLOG</a></li>
+                <li><a href="contactus.html"target="_blank" rel="noopener noreferrer">CONTACT</a></li>
+                </ul>
+        </div>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to C++</h1>
+            <p>while(!(succeed = try()));</p>
+            <a href=""class="hero-btn">
+                 
+                Free Courses</a>
+            
+        </div>
+       
+    </section>
+     <div id="container">
+         <header>
+             <h1>C++ Programming</h1>
+         </header>
+   
+    <h2 align="CENTER"><br>
+   
+    <h2 align="CENTER"><a name="Getting STarted"></a><font color="#000077">Getting Started</font></h2>
+    <p>
+    <ul>
+        <li>Why C++ is the emerging standard in software development.
+        <p>
+        </p></li><li>The steps to develop a C++ program.
+        <p>
+        </p></li><li>How to enter, compile, and link your first working C++ program.
+    </li></ul>
+    
+    <h3 align="CENTER"><a name="Heading4"></a><font color="#000077">A Brief History of
+    C++</font></h3>
+    <p>Computer languages have undergone dramatic evolution since the first electronic
+    computers were built to assist in telemetry calculations during World War II. Early
+    on, programmers worked with the most primitive computer instructions: machine language.
+    These instructions were represented by long strings of ones and zeroes. Soon, assemblers
+    were invented to map machine instructions to human-readable and -manageable mnemonics,
+    such as <tt>ADD</tt> and <tt>MOV</tt>.</p>
+    <p>In time, higher-level languages evolved, such as BASIC and COBOL. These languages
+    let people work with something approximating words and sentences, such as <tt>Let
+    I = 100</tt>. These instructions were translated back into machine language by interpreters
+    and compilers. An interpreter translates a program as it reads it, turning the program
+    instructions, or code, directly into actions. A compiler translates the code into
+    an intermediary form. This step is called compiling, and produces an object file.
+    The compiler then invokes a linker, which turns the object file into an executable
+    program.</p>
+    <p>Because interpreters read the code as it is written and execute the code on the
+    spot, interpreters are easy for the programmer to work with. Compilers, however,
+    introduce the extra steps of compiling and linking the code, which is inconvenient.
+    Compilers produce a program that is very fast each time it is run. However, the time-consuming
+    task of translating the source code into machine language has already been accomplished.</p>
+    <p>Another advantage of many compiled languages like C++ is that you can distribute
+    the executable program to people who don't have the compiler. With an interpretive
+    language, you must have the language to run the program.</p>
+    <p>For many years, the principle goal of computer programmers was to write short
+    pieces of code that would execute quickly. The program needed to be small, because
+    memory was expensive, and it needed to be fast, because processing power was also
+    expensive. As computers have become smaller, cheaper, and faster, and as the cost
+    of memory has fallen, these priorities have changed. Today the cost of a programmer's
+    time far outweighs the cost of most of the computers in use by businesses. Well-written,
+    easy-to-maintain code is at a premium. Easy- to-maintain means that as business requirements
+    change, the program can be extended and enhanced without great expense.
+    </p><h3 align="CENTER"><a name="Heading5"></a><font color="#000077">Programs</font></h3>
+    <p>The word program is used in two ways: to describe individual instructions, or
+    source code, created by the programmer, and to describe an entire piece of executable
+    software. This distinction can cause enormous confusion, so we will try to distinguish
+    between the source code on one hand, and the executable on the other.</p>
+    
+    <dl>
+        <dd>
+    <hr>
+    <font color="#000077"><b>New Term:</b></font><b> </b>A <i>program</i> can be defined
+        as either a set of written instructions created by a programmer or an executable
+        piece of software. 
+    <hr>
+    
+    </dd></dl>
+    
+    <p>Source code can be turned into an executable program in two ways: Interpreters
+    translate the source code into computer instructions, and the computer acts on those
+    instructions immediately. Alternatively, compilers translate source code into a program,
+    which you can run at a later time. While interpreters are easier to work with, most
+    serious programming is done with compilers because compiled code runs much faster.
+    C++ is a compiled language.
+    </p><h3 align="CENTER"><a name="Heading6"></a><font color="#000077">Solving Problems</font></h3>
+    <p>The problems programmers are asked to solve have been changing. Twenty years ago,
+    programs were created to manage large amounts of raw data. The people writing the
+    code and the people using the program were all computer professionals. Today, computers
+    are in use by far more people, and most know very little about how computers and
+    programs work. Computers are tools used by people who are more interested in solving
+    their business problems than struggling with the computer.</p>
+    <p>Ironically, in order to become easier to use for this new audience, programs have
+    become far more sophisticated. Gone are the days when users typed in cryptic commands
+    at esoteric prompts, only to see a stream of raw data. Today's programs use sophisticated
+    "user-friendly interfaces," involving multiple windows, menus, dialog boxes,
+    and the myriad of metaphors with which we've all become familiar. The programs written
+    to support this new approach are far more complex than those written just ten years
+    ago.</p>
+    <p>As programming requirements have changed, both languages and the techniques used
+    for writing programs have evolved. While the complete history is fascinating, this
+    book will focus on the transformation from procedural programming to object-oriented
+    programming.
+    </p><h4 align="CENTER"><a name="Heading7"></a><font color="#000077">Procedural, Structured,
+    and Object-Oriented Programming</font></h4>
+    <p>Until recently, programs were thought of as a series of procedures that acted
+    upon data. A procedure, or function, is a set of specific instructions executed one
+    after the other. The data was quite separate from the procedures, and the trick in
+    programming was to keep track of which functions called which other functions, and
+    what data was changed. To make sense of this potentially confusing situation, structured
+    programming was created.</p>
+    <p>The principle idea behind structured programming is as simple as the idea of divide
+    and conquer. A computer program can be thought of as consisting of a set of tasks.
+    Any task that is too complex to be described simply would be broken down into a set
+    of smaller component tasks, until the tasks were sufficiently small and self-contained
+    enough that they were easily understood.</p>
+    <p>As an example, computing the average salary of every employee of a company is
+    a rather complex task. You can, however, break it down into these subtasks:
+    
+    </p><dl>
+        <dd><b>1.</b> Find out what each person earns.<br>
+        <br>
+        <b>2.</b> Count how many people you have.<br>
+        <br>
+        <b>3.</b> Total all the salaries.<br>
+        <br>
+        <b>4.</b> Divide the total by the number of people you have.
+    </dd></dl>
+    
+    <p>Totaling the salaries can be broken down into
+    
+    </p><dl>
+        <dd><b>1.</b> Get each employee's record.<br>
+        <b><br>
+        2.</b> Access the salary.<br>
+        <b><br>
+        3.</b> Add the salary to the running total.<br>
+        <b><br>
+        4.</b> Get the next employee's record.
+    </dd></dl>
+    
+    <p>In turn, obtaining each employee's record can be broken down into
+    
+    </p><dl>
+        <dd><b>1.</b> Open the file of employees.<br>
+        <b><br>
+        2.</b> Go to the correct record.<br>
+        <b><br>
+        3.</b> Read the data from disk.
+    </dd></dl>
+    
+    <p>Structured programming remains an enormously successful approach for dealing with
+    complex problems. By the late 1980s, however, some of the deficiencies of structured
+    programing had became all too clear.</p>
+    <p>First, it is natural to think of your data (employee records, for example) and
+    what you can do with your data (sort, edit, and so on) as related ideas.</p>
+    <p>Second, programmers found themselves constantly reinventing new solutions to old
+    problems. This is often called "reinventing the wheel," and is the opposite
+    of reusability. The idea behind reusability is to build components that have known
+    properties, and then to be able to plug them into your program as you need them.
+    This is modeled after the hardware world--when an engineer needs a new transistor,
+    she doesn't usually invent one, she goes to the big bin of transistors and finds
+    one that works the way she needs it to, or perhaps modifies it. There was no similar
+    option for a software engineer.</p>
+    
+    <dl>
+        <dd>
+    <hr>
+    <font color="#000077"><b>New Term:</b></font><b> </b>The way we are now using computers--with
+        menus and buttons and windows--fosters a more interactive, event-driven approach
+        to computer programming. <i>Event-driven</i> means that an event happens--the user
+        presses a button or chooses from a menu--and the program must respond. Programs are
+        becoming increasingly interactive, and it has became important to design for that
+        kind of functionality. 
+    <hr>
+    
+    </dd></dl>
+    
+    <p>Old-fashioned programs forced the user to proceed step-by-step through a series
+    of screens. Modern event-driven programs present all the choices at once and respond
+    to the user's actions.</p>
+    <p>Object-oriented programming attempts to respond to these needs, providing techniques
+    for managing enormous complexity, achieving reuse of software components, and coupling
+    data with the tasks that manipulate that data.</p>
+    <p>The essence of object-oriented programming is to treat data and the procedures
+    that act upon the data as a single "object"--a self-contained entity with
+    an identity and certain characteristics of its own.
+    </p><h4 align="CENTER"><a name="Heading8"></a><font color="#000077">C++ and Object-Oriented
+    Programming</font></h4>
+    <p>C++ fully supports object-oriented programming, including the four pillars of
+    object-oriented development: encapsulation, data hiding, inheritance, and polymorphism.
+    Encapsulation and Data Hiding When an engineer needs to add a resistor to the device
+    she is creating, she doesn't typically build a new one from scratch. She walks over
+    to a bin of resistors, examines the colored bands that indicate the properties, and
+    picks the one she needs. The resistor is a "black box" as far as the engineer
+    is concerned--she doesn't much care how it does its work as long as it conforms to
+    her specifications; she doesn't need to look inside the box to use it in her design.</p>
+    <p>The property of being a self-contained unit is called encapsulation. With encapsulation,
+    we can accomplish data hiding. Data hiding is the highly valued characteristic that
+    an object can be used without the user knowing or caring how it works internally.
+    Just as you can use a refrigerator without knowing how the compressor works, you
+    can use a well-designed object without knowing about its internal data members.</p>
+    <p>Similarly, when the engineer uses the resistor, she need not know anything about
+    the internal state of the resistor. All the properties of the resistor are encapsulated
+    in the resistor object; they are not spread out through the circuitry. It is not
+    necessary to understand how the resistor works in order to use it effectively. Its
+    data is hidden inside the resistor's casing.</p>
+    <p>C++ supports the properties of encapsulation and data hiding through the creation
+    of user-defined types, called classes. You'll see how to create classes on Day 6,
+    "Basic Classes." Once created, a well-defined class acts as a fully encapsulated
+    entity--it is used as a whole unit. The actual inner workings of the class should
+    be hidden. Users of a well-defined class do not need to know how the class works;
+    they just need to know how to use it. Inheritance and Reuse When the engineers at
+    Acme Motors want to build a new car, they have two choices: They can start from scratch,
+    or they can modify an existing model. Perhaps their Star model is nearly perfect,
+    but they'd like to add a turbocharger and a six-speed transmission. The chief engineer
+    would prefer not to start from the ground up, but rather to say, "Let's build
+    another Star, but let's add these additional capabilities. We'll call the new model
+    a Quasar." A Quasar is a kind of Star, but one with new features.</p>
+    <p>C++ supports the idea of reuse through inheritance. A new type, which is an extension
+    of an existing type, can be declared. This new subclass is said to derive from the
+    existing type and is sometimes called a derived type. The Quasar is derived from
+    the Star and thus inherits all its qualities, but can add to them as needed. Inheritance
+    and its application in C++ are discussed on Day 12, "Inheritance," and
+    Day 15, "Advanced Inheritance." Polymorphism The new Quasar might respond
+    differently than a Star does when you press down on the accelerator. The Quasar might
+    engage fuel injection and a turbocharger, while the Star would simply let gasoline
+    into its carburetor. A user, however, does not have to know about these differences.
+    He can just "floor it," and the right thing will happen, depending on which
+    car he's driving.</p>
+    <p>C++ supports the idea that different objects do "the right thing" through
+    what is called function polymorphism and class polymorphism. Poly means many, and
+    morph means form. Polymorphism refers to the same name taking many forms, and is
+    discussed on Day 10, "Advanced Functions," and Day 13, "Polymorphism."
+    </p><h3 align="CENTER"><a name="Heading9"></a><font color="#000077">How C++ Evolved</font></h3>
+    <p>As object-oriented analysis, design, and programming began to catch on, Bjarne
+    Stroustrup took the most popular language for commercial software development, C,
+    and extended it to provide the features needed to facilitate object-oriented programming.
+    He created C++, and in less than a decade it has gone from being used by only a handful
+    of developers at AT&amp;T to being the programming language of choice for an estimated
+    one million developers worldwide. It is expected that by the end of the decade, C++
+    will be the predominant language for commercial software development.</p>
+    <p>While it is true that C++ is a superset of C, and that virtually any legal C program
+    is a legal C++ program, the leap from C to C++ is very significant. C++ benefited
+    from its relationship to C for many years, as C programmers could ease into their
+    use of C++. To really get the full benefit of C++, however, many programmers found
+    they had to unlearn much of what they knew and learn a whole new way of conceptualizing
+    and solving programming problems.
+    </p><h3 align="CENTER"><a name="Heading10"></a><font color="#000077">The ANSI Standard</font></h3>
+    <p>The Accredited Standards Committee, operating under the procedures of the American
+    National Standards Institute (ANSI), is working to create an international standard
+    for C++.</p>
+    <p>The draft of this standard has been published, and a link is available at <tt>www.libertyassociates.com</tt>.</p>
+    <p>The ANSI standard is an attempt to ensure that C++ is portable--that code you
+    write for Microsoft's compiler will compile without errors, using a compiler from
+    any other vendor. Further, because the code in this book is ANSI compliant, it should
+    compile without errors on a Mac, a Windows box, or an Alpha.</p>
+    <p>For most students of C++, the ANSI standard will be invisible. The standard has
+    been stable for a while, and all the major manufacturers support the ANSI standard.
+    We have endeavored to ensure that all the code in this edition of this book is ANSI
+    compliant.
+    </p><h3 align="CENTER"><a name="Heading11"></a><font color="#000077">Should I Learn C
+    First?</font></h3>
+    <p>The question inevitably arises: "Since C++ is a superset of C, should I learn
+    C first?" Stroustrup and most other C++ programmers agree. Not only is it unnecessary
+    to learn C first, it may be advantageous not to do so. This book attempts to meet
+    the needs of people like you, who come to C++ without prior experience of C. In fact,
+    this book assumes no programming experience of any kind.
+    </p><h3 align="CENTER"><a name="Heading12"></a><font color="#000077">Preparing to Program</font></h3>
+    <p>C++, perhaps more than other languages, demands that the programmer design the
+    program before writing it. Trivial problems, such as the ones discussed in the first
+    few chapters of this book, don't require much design. Complex problems, however,
+    such as the ones professional programmers are challenged with every day, do require
+    design, and the more thorough the design, the more likely it is that the program
+    will solve the problems it is designed to solve, on time and on budget. A good design
+    also makes for a program that is relatively bug-free and easy to maintain. It has
+    been estimated that fully 90 percent of the cost of software is the combined cost
+    of debugging and maintenance. To the extent that good design can reduce those costs,
+    it can have a significant impact on the bottom-line cost of the project.</p>
+    <p>The first question you need to ask when preparing to design any program is, "What
+    is the problem I'm trying to solve?" Every program should have a clear, well-articulated
+    goal, and you'll find that even the simplest programs in this book do so.</p>
+    <p>The second question every good programmer asks is, "Can this be accomplished
+    without resorting to writing custom software?" Reusing an old program, using
+    pen and paper, or buying software off the shelf is often a better solution to a problem
+    than writing something new. The programmer who can offer these alternatives will
+    never suffer from lack of work; finding less-expensive solutions to today's problems
+    will always generate new opportunities later.</p>
+    <p>Assuming you understand the problem, and it requires writing a new program, you
+    are ready to begin your design.
+    </p><h3 align="CENTER"><a name="Heading13"></a><font color="#000077">Your Development
+    Environment</font></h3>
+    <p>This book makes the assumption that your computer has a mode in which you can
+    write directly to the screen, without worrying about a graphical environment, such
+    as the ones in Windows or on the Macintosh.</p>
+    <p>Your compiler may have its own built-in text editor, or you may be using a commercial
+    text editor or word processor that can produce text files. The important thing is
+    that whatever you write your program in, it must save simple, plain-text files, with
+    no word processing commands embedded in the text. Examples of safe editors include
+    Windows Notepad, the DOS Edit command, Brief, Epsilon, EMACS, and vi. Many commercial
+    word processors, such as WordPerfect, Word, and dozens of others, also offer a method
+    for saving simple text files.</p>
+    <p>The files you create with your editor are called source files, and for C++ they
+    typically are named with the extension <tt>.CPP</tt>, <tt>.CP</tt>, or <tt>.C</tt>.
+    In this book, we'll name all the source code files with the <tt>.CPP</tt> extension,
+    but check your compiler for what it needs.
+    
+    
+    </p><blockquote>
+        <p>
+    </p><hr>
+    <font color="#000077"><b>NOTE:</b></font><b> </b>Most C++ compilers don't care what
+        extension you give your source code, but if you don't specify otherwise, many will
+        use <tt>.CPP</tt> by default.<p></p>
+        <p>DO use a simple text editor to create your source code, or use the built-in editor
+        that comes with your compiler. DON'T use a word processor that saves special formatting
+        characters. If you do use a word processor, save the file as ASCII text. DO save
+        your files with the <tt>.C</tt>, <tt>.CP</tt>, or <tt>.CPP</tt> extension. DO check
+        your documentation for specifics about your compiler and linker to ensure that you
+        know how to compile and link your programs. 
+    </p><hr>
+    
+    
+    </blockquote>
+    
+    <h3 align="CENTER"><a name="Heading14"></a><font color="#000077">Compiling the Source
+    Code</font></h3>
+    <p>Although the source code in your file is somewhat cryptic, and anyone who doesn't
+    know C++ will struggle to understand what it is for, it is still in what we call
+    human-readable form. Your source code file is not a program, and it can't be executed,
+    or run, as a program can.</p>
+    <p>To turn your source code into a program, you use a compiler. How you invoke your
+    compiler, and how you tell it where to find your source code, will vary from compiler
+    to compiler; check your documentation. In Borland's Turbo C++ you pick the <tt>RUN</tt>
+    menu command or type</p>
+    <pre><font color="#0066FF">tc &lt;filename&gt;
+    </font></pre>
+    <p>from the command line, where <tt>&lt;</tt>filename<tt>&gt;</tt> is the name of
+    your source code file (for example, <tt>test.cpp</tt>). Other compilers may do things
+    slightly differently.
+    
+    
+    </p><blockquote>
+        <p>
+    </p><hr>
+    <font color="#000077"><b>NOTE:</b></font><b> </b>If you compile the source code from
+        the operating system's command line, you should type the following:
+    
+        <blockquote>
+            <p>For the Borland C++ compiler: <font color="#0066FF"><tt>bcc</tt> &lt;filename&gt;</font><br>
+            <br>
+            For the Borland C++ for Windows compiler: <font color="#0066FF"><tt>bcc</tt> &lt;filename&gt;
+            </font><br>
+            <br>
+            For the Borland Turbo C++ <font color="#0066FF">compiler: <tt>tc</tt> &lt;filename&gt;
+            </font><br>
+            <br>
+            For the Microsoft compilers: <font color="#0066FF"><tt>cl</tt> &lt;filename&gt;</font>
+    
+        </p></blockquote>
+        <p>
+    </p><hr>
+    
+    
+    </blockquote>
+    
+    <p>After your source code is compiled, an object file is produced. This file is often
+    named with the extension <tt>.OBJ</tt>. This is still not an executable program,
+    however. To turn this into an executable program, you must run your linker.
+    </p><h3 align="CENTER"><a name="Heading15"></a><font color="#000077">Creating an Executable
+    File with the Linker</font></h3>
+    <h3 align="CENTER"><font color="#000077"></font></h3>
+    <p>C++ programs are typically created by linking together one or more OBJ files with
+    one or more libraries. A library is a collection of linkable files that were supplied
+    with your compiler, that you purchased separately, or that you created and compiled.
+    All C++ compilers come with a library of useful functions (or procedures) and classes
+    that you can include in your program. A function is a block of code that performs
+    a service, such as adding two numbers or printing to the screen. A class is a collection
+    of data and related functions; we'll be talking about classes a lot, starting on
+    Day 5, "Functions."</p>
+    <p>The steps to create an executable file are
+    
+    </p><dl>
+        <dd><b>1.</b> Create a source code file, with a <tt>.CPP</tt> extension.<br>
+        <b><br>
+        2.</b> Compile the source code into a file with the <tt>.OBJ</tt> extension.<br>
+        <b><br>
+        3.</b> Link your OBJ file with any needed libraries to produce an executable program.
+    </dd></dl>
+    
+    <h3 align="CENTER"><a name="Heading17"></a><font color="#000077">The Development
+    Cycle</font></h3>
+    <p>If every program worked the first time you tried it, that would be the complete
+    development cycle: Write the program, compile the source code, link the program,
+    and run it. Unfortunately, almost every program, no matter how trivial, can and will
+    have errors, or bugs, in the program. Some bugs will cause the compile to fail, some
+    will cause the link to fail, and some will only show up when you run the program.</p>
+    <p>Whatever type of bug you find, you must fix it, and that involves editing your
+    source code, recompiling and relinking, and then rerunning the program. This cycle
+    is represented in Figure 1.1, which diagrams the steps in the development cycle.<br>
+    <br>
+    <a name="Heading18"></a><a href="../art/ch01/01zcp01.jpg"><font color="#000077">Figure
+    1.1.</font></a><font color="#000077"> </font><i>The steps in the development of a
+    C++ program.</i>
+    </p><h3 align="CENTER"><a name="Heading19"></a><font color="#000077">HELLO.CPPYour First
+    C++ Program</font></h3>
+    <p>Traditional programming books begin by writing the words <tt>Hello World</tt>
+    to the screen, or a variation on that statement. This time-honored tradition is carried
+    on here.</p>
+    <p>Type the first program directly into your editor, exactly as shown. Once you are
+    certain it is correct, save the file, compile it, link it, and run it. It will print
+    the words <tt>Hello World</tt> to your screen. Don't worry too much about how it
+    works, this is really just to get you comfortable with the development cycle. Every
+    aspect of this program will be covered over the next couple of days.
+    
+    
+    </p><blockquote>
+        <p>
+    </p><hr>
+    <font color="#000077"><b>WARNING: </b></font>The following listing contains line
+        numbers on the left. These numbers are for reference within the book. They should
+        not be typed in to your editor. For example, in line 1 of Listing 1.1, you should
+        enter:<p></p>
+        <pre><font color="#0066FF">#include &lt;iostream.h&gt;</font></pre>
+        <p>
+    </p><hr>
+    
+    
+    </blockquote>
+    
+    <pre></pre>
+    <p><a name="Heading20"></a><font size="4" color="#000077"><b>Listing 1.1. HELLO.CPP,
+    the Hello World program.</b></font><font color="#0066FF"></font>
+    </p><pre><font color="#0066FF">1: #include &lt;iostream.h&gt;
+    2:
+    3: int main()
+    4: {
+    5:    cout &lt;&lt; "Hello World!\n";
+    6:        return 0;
+    <tt>7: }</tt></font> 
+    </pre>
+    <p>Make certain you enter this exactly as shown. Pay careful attention to the punctuation.
+    The <tt>&lt;&lt;</tt> in line 5 is the redirection symbol, produced on most keyboards
+    by holding the Shift key and pressing the comma key twice. Line 5 ends with a semicolon;
+    don't leave this off!</p>
+    <p>Also check to make sure you are following your compiler directions properly. Most
+    compilers will link automatically, but check your documentation. If you get errors,
+    look over your code carefully and determine how it is different from the above. If
+    you see an error on line 1, such as <tt>cannot find file iostream.h</tt>, check your
+    compiler documentation for directions on setting up your <tt>include</tt> path or
+    environment variables. If you receive an error that there is no prototype for <tt>main</tt>,
+    add the line <tt>int main();</tt> just before line 3. You will need to add this line
+    before the beginning of the <tt>main</tt> function in every program in this book.
+    Most compilers don't require this, but a few do.</p>
+    <p>Your finished program will look like this:</p>
+    <pre><font color="#0066FF">1: #include &lt;iostream.h&gt;
+    2:
+    3:
+    4: int main();
+    5: {
+    6: cout &lt;&lt;"Hello World!\n";
+    7:     return 0;
+    8: }
+    </font></pre>
+    <p>Try running <tt>HELLO.EXE</tt>; it should write</p>
+    <pre><font color="#0066FF">Hello World!
+    </font></pre>
+    <p>directly to your screen. If so, congratulations! You've just entered, compiled,
+    and run your first C++ program. It may not look like much, but almost every professional
+    C++ programmer started out with this exact program.
+    </p><h3 align="CENTER"><a name="Heading21"></a><font color="#000077">Compile Errors</font></h3>
+    <p>Compile-time errors can occur for any number of reasons. Usually they are a result
+    of a typo or other inadvertent minor error. Good compilers will not only tell you
+    what you did wrong, they'll point you to the exact place in your code where you made
+    the mistake. The great ones will even suggest a remedy!</p>
+    <p>You can see this by intentionally putting an error into your program. If <tt>HELLO.CPP</tt>
+    ran smoothly, edit it now and remove the closing brace on line 6. Your program will
+    now look like Listing 1.2.</p>
+    
+    <p><a name="Heading22"></a><font size="4" color="#000077"><b>Listing 1.2. Demonstration
+    of compiler error.</b></font>
+    </p><pre><font color="#0066FF">1: #include &lt;iostream.h&gt;
+    2:
+    3: int main()
+    4: {
+    5:    cout &lt;&lt; "Hello World!\n";
+    <tt>6: return 0;</tt></font> </pre>
+    <p><br>
+    Recompile your program and you should see an error that looks similar to the following:</p>
+    <pre><font color="#0066FF">Hello.cpp, line 5: Compound statement missing terminating } in function main().
+    </font></pre>
+    <p>This error tells you the file and line number of the problem, and what the problem
+    is (although I admit it is somewhat cryptic). Note that the error message points
+    you to line 5. The compiler wasn't sure if you intended to put the closing brace
+    before or after the <tt>cout</tt> statement on line 5. Sometimes the errors just
+    get you to the general vicinity of the problem. If a compiler could perfectly identify
+    every problem, it would fix the code itself.
+    </p><h3 align="CENTER"><a name="Heading24"></a><font color="#000077">Summary</font></h3>
+    <p>After reading this chapter, you should have a good understanding of how C++ evolved
+    and what problems it was designed to solve. You should feel confident that learning
+    C++ is the right choice for anyone interested in programming in the next decade.
+    C++ provides the tools of object-oriented programming and the performance of a systems-level
+    language, which makes C++ the development language of choice.</p>
+    <p>Today you learned how to enter, compile, link, and run your first C++ program,
+    and what the normal development cycle is. You also learned a little of what object-oriented
+    programming is all about. You will return to these topics during the next three weeks.
+    </p><h3 align="CENTER"><a name="Heading25"></a><font color="#000077">Q&amp;A</font></h3>
+    
+    <dl>
+        <dd><b>Q. What is the difference between a text editor and a word processor?</b><br>
+        <br>
+        <b>A.</b> A text editor produces files with plain text in them. There are no formatting
+        commands or other special symbols required by a particular word processor. Text files
+        do not have automatic word wrap, bold print, italics, and so forth.<br>
+        <br>
+        <b>Q. If my compiler has a built-in editor, must I use it?</b><br>
+        <br>
+        <b>A.</b> Almost all compilers will compile code produced by any text editor. The
+        advantages of using the built-in text editor, however, might include the ability
+        to quickly move back and forth between the edit and compile steps of the development
+        cycle. Sophisticated compilers include a fully integrated development environment,
+        allowing the programmer to access help files, edit, and compile the code in place,
+        and to resolve compile and link errors without ever leaving the environment.<br>
+        <br>
+        <b>Q. Can I ignore warning messages from my compiler?</b><br>
+        <br>
+        <b>A.</b> Many books hedge on this one, but I'll stake myself to this position: No!
+        Get into the habit, from day one, of treating warning messages as errors. C++ uses
+        the compiler to warn you when you are doing something you may not intend. Heed those
+        warnings, and do what is required to make them go away.<br>
+        <br>
+        <b>Q. What is compile time?</b><br>
+        <br>
+        <b>A.</b> Compile time is the time when you run your compiler, as opposed to link
+        time (when you run the linker) or run-time (when running the program). This is just
+        programmer shorthand to identify the three times when errors usually surface.
+    </dd></dl>
+    
+    <h3 align="CENTER"><a name="Heading26"></a><font color="#000077">Workshop</font></h3>
+    <p>The Workshop provides quiz questions to help you solidify your understanding of
+    the material covered and exercises to provide you with experience in using what you've
+    learned. Try to answer the quiz and exercise questions before checking the answers
+    in Appendix D, and make sure you understand the answers before continuing to the
+    next chapter.
+    </p><h4 align="CENTER"><a name="Heading27"></a><font color="#000077">Quiz</font></h4>
+    
+    <dl>
+        <dd><b>1.</b> What is the difference between an interpreter and a compiler?<br>
+        <br>
+        <b>2.</b> How do you compile the source code with your compiler?<br>
+        <br>
+        <b>3.</b> What does the linker do?<br>
+        <br>
+        <b>4.</b> What are the steps in the normal development cycle?
+    </dd></dl>
+    
+    <h4 align="CENTER"><a name="Heading28"></a><font color="#000077">Exercises</font></h4>
+    
+    <dl>
+        <dd><b>1.</b> Look at the following program and try to guess what it does without
+        running it.
+    </dd></dl>
+    
+    <pre><font color="#0066FF">1: #include &lt;iostream.h&gt;
+    2: int main()
+    3: {
+    4: int x = 5;
+    5: int y = 7;
+    6: cout "\n";
+    7: cout &lt;&lt; x + y &lt;&lt; " " &lt;&lt; x * y;
+    8: cout "\n";
+    9:return 0;
+    10: }
+    </font></pre>
+    
+    <dl>
+        <dd><b>2.</b> Type in the program from Exercise 1, and then compile and link it.
+        What does it do? Does it do what you guessed?<br>
+        <br>
+        <b>3.</b> Type in the following program and compile it. What error do you receive?
+    </dd></dl>
+    
+    <pre><font color="#0066FF">1: include &lt;iostream.h&gt;
+    2: int main()
+    3: {
+    4: cout &lt;&lt; "Hello World\n";
+    5: return 0;
+    6: }
+    </font></pre>
+    
+    <dl>
+        <dd><b>4.</b> Fix the error in the program in Exercise 3, and recompile, link, and
+        run it. What does it do?
+        <center>
+        <dd><br>
+        <br>
+        <br>
+        
+    
+    
+    
+    
+    
+    </html>

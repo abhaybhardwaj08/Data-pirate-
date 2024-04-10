@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    display:flex;
+
+    justify-content: space-between;
+    align-items: centre;
+}
+nav img{
+    width:150px;
+   
+}
+.nav-links h3{
+    text-align:left;
+    color:darksalmon;
+    margin-left: 10px;
+   
+}
+.nav-links h2{
+    text-align:left;
+    color:deeppink;
+    margin-left: 10px;
+   
+}
+.nav-links{
+    margin-bottom: 10px;
+    flex:1;
+    text-align:right;
+    background-image:linear-gradient(rgba(0,0,0,0.7),#5c4e4e04) , url(./SER1.1.4.3\ -\ FW\ -\ Young\ woman\ typing\ on\ laptop\ sat\ at\ desk\ with\ mobile\ phone\ and\ plant.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height:100vh;
+    width: 100%;
+    position: relative;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+   
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+   
+    font-size: 16px;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid cadetblue;
+    width: 25px;
+    color:lawngreen;
+    height: 0.18px;
+    transition: border-bottom .3s;
+    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:cadetblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.nav-links h1{
+    text-align: left;
+    color: blue;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.nav-links p{
+    text-align: left;
+    color:gold;
+    
+    margin-left: 10px;
+}
+.hero{
+    width:100%;
+    height:80vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+form{
+    width:90%;
+    max-width:600px;
+
+}
+.input-group{
+    margin-bottom: 30px;
+    position:relative;
+    
+}
+input, textarea{
+    width: 100%;
+    padding:10px;
+    outline:0;
+    border:1px solid  #33ccff ;
+    color:chartreuse;
+    background:transparent;
+    font-size:15px;
+}
+label{
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    padding: 10px;
+    color:#fff;
+    cursor:text;  
+    transition:0.2s; 
+}
+button{
+    padding:10px 0;
+    color:black;
+    outline:none;
+    background:transparent;
+    border:1px solid #33ccff;
+    width: 100%;
+    cursor:pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size:14px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
